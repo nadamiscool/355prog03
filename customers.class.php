@@ -257,6 +257,7 @@ class Customer {
             </head>
             <body>
                 <a href='https://github.com/nadamiscool/355prog02' target='_blank'>Github</a><br />
+                <a href='logout.php'>Log Out</a>
                 <div class='container'>
                     <p class='row'>
                         <h3>$this->title" . "s" . "</h3>

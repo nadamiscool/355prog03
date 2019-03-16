@@ -1,5 +1,9 @@
 <?php
-
+session_start();
+if(!isset($_SESSION["email"])){
+    $_SESSION["email"] = $email;
+    header ("Location: login.php");
+}
 // include the class that handles database connections
 require "database.php";
 
